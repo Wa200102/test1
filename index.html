@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <style>
+    /* Default styles for larger screens (e.g., laptops and desktops) */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      font-size: 28px;
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    main {
+      text-align: justify;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Styles for devices smaller than 768px (e.g., tablets and smartphones) */
+    @media (max-width: 768px) {
+      header {
+        font-size: 24px;
+        padding: 15px;
+      }
+
+      nav a {
+        display: block; /* Stack navigation links */
+        margin: 10px 0;
+        font-size: 16px;
+      }
+
+      main {
+        font-size: 16px;
+        margin: 10px;
+      }
+
+      footer {
+        font-size: 14px;
+      }
+    }
+
+    /* Styles for devices smaller than 480px (e.g., small smartphones) */
+    @media (max-width: 480px) {
+      body {
+        margin: 10px;
+      }
+
+      header {
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      main {
+        font-size: 14px;
+      }
+
+      footer {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Responsive Website Example</header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <p>
+      Welcome to this example of a responsive website. The layout automatically adjusts based on the screen size, ensuring a great user experience on both laptops and mobile devices.
+    </p>
+    <p>
+      Resize your browser or open this page on a mobile device to see how the design adapts.
+    </p>
+  </main>
+  <footer>© 2024 My Website</footer>
+</body>
+</html>
